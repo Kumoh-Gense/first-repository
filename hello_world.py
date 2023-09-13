@@ -1,9 +1,10 @@
-def hello_user():
-    print("Hello User")
+def add(x, y):
+    num = x+y
+    return num
 
-def Saying_File_Name():
-    print("This file is 'hello_world.py'")
+def Saying_Name():
+    print("KIT")
 
 if __name__ == '__main__':
-    hello_user()
-    Saying_File_Name()
+    print(add(1,2))
+    Saying_Name()
